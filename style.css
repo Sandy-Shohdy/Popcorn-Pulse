@@ -159,26 +159,27 @@ h1::after {
   max-width: 200px;
 }
 
-@media (max-width: 600px) {
-  header h1 {
-    display: block;
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
     text-align: center;
+    align-items: center;
+    
     font-size: 1.6rem;
     font-weight: 800;
     padding: 0.8rem 0 0.5rem;
     margin: 0;
-    letter-spacing: -0.5px;
-  }
-  header {
-    flex-direction: row;
-    align-items: center;
-    width: 90%;
-    padding: 10px 15px;
+ 
   }
 
-  header nav.pro {
-    flex-direction: row;
-    gap: 10px;
+  .header-bar nav ul {
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+    align-items: center;
   }
 }
 
@@ -196,6 +197,16 @@ h2 {
   align-items: center;
   gap: 0.6rem;
   color: white;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: f.4rem;
+    gap: 0.4rem;
+    text-align: center;
+  }
 }
 
 .movie-grid {
