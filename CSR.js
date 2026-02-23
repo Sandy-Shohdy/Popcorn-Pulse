@@ -145,13 +145,12 @@ const movies = [
   },
 ];
 
-document.addEventListener("DOMContentLoaded", function () {
-  const moviesContainer = document.getElementById("movie-container");
+const moviesContainer = document.getElementById("movie-container");
 
-  let html = "";
+let html = "";
 
-  movies.forEach((movie) => {
-    html += `
+movies.forEach((movie) => {
+  html += `
       <div class="movie-card">
       <div>
         <img  class="movie-img" src="${movie.img}" alt="${movie.title}">
@@ -164,7 +163,6 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </div>
     `;
-  });
-
-  moviesContainer.innerHTML = html;
 });
+
+moviesContainer.innerHTML = html;
