@@ -1,7 +1,6 @@
 const movies = [
   {
     img: "imgs/Interstellar.jpeg",
-    alt: "Interstellar-pic",
     title: "Interstellar",
     rating: "⭐ 8.7/10",
     genre: "Sci-Fi • 2014",
@@ -10,7 +9,6 @@ const movies = [
   },
   {
     img: "imgs/Fight Club.jpg",
-    alt: "Fight Club-pic",
     title: "Fight Club",
     rating: "⭐ 8.8/10",
     genre: "Action/Crime • 1999",
@@ -19,7 +17,6 @@ const movies = [
   },
   {
     img: "imgs/Se7en.jpg",
-    alt: "Se7en-pic",
     title: "Se7en",
     rating: "⭐ 8.6/10",
     genre: "Crime/Mystery • 1995",
@@ -28,7 +25,6 @@ const movies = [
   },
   {
     img: "imgs/American_Psycho.png",
-    alt: "American Psycho-pic",
     title: "American Psycho",
     rating: "⭐ 7.6/10",
     genre: "Crime/Drama • 2000",
@@ -37,7 +33,6 @@ const movies = [
   },
   {
     img: "imgs/The_Matrix_digital_release_cover.webp",
-    alt: "The Matrix-pic",
     title: "The Matrix",
     rating: "⭐ 8.7/10",
     genre: "Action/Sci-Fi • 1999",
@@ -46,7 +41,6 @@ const movies = [
   },
   {
     img: "imgs/Monkey Man.jpeg",
-    alt: "Monkey Man-pic",
     title: "Monkey Man",
     rating: "⭐ 6.9/10",
     genre: "Action/Thriller • 2024",
@@ -55,7 +49,6 @@ const movies = [
   },
   {
     img: "imgs/Shutter_Island.jpg",
-    alt: "Shutter Island-pic",
     title: "Shutter Island",
     rating: "⭐ 8.2/10",
     genre: "Mystery/Thriller • 2010",
@@ -64,7 +57,6 @@ const movies = [
   },
   {
     img: "imgs/Prisoners.jpeg",
-    alt: "Prisoners-pic",
     title: "Prisoners",
     rating: "⭐ 8.1/10",
     genre: "Crime/Thriller • 2013",
@@ -73,7 +65,6 @@ const movies = [
   },
   {
     img: "imgs/Nightcrawler.jpg",
-    alt: "Nightcrawler-pic",
     title: "Nightcrawler",
     rating: "⭐ 7.8/10",
     genre: "Crime/Drama • 2014",
@@ -82,7 +73,6 @@ const movies = [
   },
   {
     img: "imgs/Gone_Girl.jpeg",
-    alt: "Gone Girl-pic",
     title: "Gone Girl",
     rating: "⭐ 8.1/10",
     genre: "Mystery/Drama • 2014",
@@ -91,7 +81,6 @@ const movies = [
   },
   {
     img: "imgs/Joker.jpg",
-    alt: "Joker-pic",
     title: "Joker",
     rating: "⭐ 8.4/10",
     genre: "Crime/Drama • 2019",
@@ -100,7 +89,6 @@ const movies = [
   },
   {
     img: "imgs/The_Prestige.jpeg",
-    alt: "The Prestige-pic",
     title: "The Prestige",
     rating: "⭐ 8.5/10",
     genre: "Drama/Mystery • 2006",
@@ -109,7 +97,6 @@ const movies = [
   },
   {
     img: "imgs/Memento.jpg",
-    alt: "Memento-pic",
     title: "Memento",
     rating: "⭐ 8.4/10",
     genre: "Mystery/Thriller • 2000",
@@ -118,7 +105,6 @@ const movies = [
   },
   {
     img: "imgs/Taxi_Driver.jpg",
-    alt: "Taxi Driver-pic",
     title: "Taxi Driver",
     rating: "⭐ 8.2/10",
     genre: "Crime/Drama • 1976",
@@ -127,7 +113,6 @@ const movies = [
   },
   {
     img: "imgs/Oldboy.jpeg",
-    alt: "Oldboy-pic",
     title: "Oldboy",
     rating: "⭐ 8.4/10",
     genre: "Action/Mystery • 2003",
@@ -136,7 +121,6 @@ const movies = [
   },
   {
     img: "imgs/Black Swan.jpeg",
-    alt: "Black Swan-pic",
     title: "Black Swan",
     rating: "⭐ 8.0/10",
     genre: "Drama/Thriller • 2010",
