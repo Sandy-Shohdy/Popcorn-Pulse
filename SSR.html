@@ -247,22 +247,41 @@
     </section>
 
 
-
     <footer id="Contact">
         <p>&copy; 2026 Popcorn Pulse. All rights reserved.</p>
         <p class="next-page"> Go to the CSR page
-            <a href="CSR.html"><img src="imgs/Arrow.png" alt="Next page "> </a>
-
+            <button onclick="goToPageCSR()"><img src="imgs/Arrow.png" alt="Next page "></button>
         </p>
         <div class="end">
-            <a href="mailto:sandyezzat70@gmail.com">
+            <a href="/cdn-cgi/l/email-protection#07746669637e627d7d6673303747606a666e6b2964686a">
                 <img src="imgs/email.png" alt=" Email"> </a>
             <a href="https://www.linkedin.com/in/sandy-shohdy-27657a188/">
                 <img src="imgs/linkedin.png" alt="Linkedin"></a>
             <a href="https://github.com/Sandy-Shohdy">
                 <img src="imgs/Github.png" alt="Github"></a>
+
         </div>
     </footer>
+
+    <div id="loading-overlay">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p class="loader-text">Loading CSR Page<span class="dots"></span></p>
+            <p class="loader-sub">Waiting for JavaScript to render content...</p>
+        </div>
+    </div>
+
+    <script>
+        function goToPageCSR() {
+
+            document.getElementById('loading-overlay').style.display = 'block';
+            setTimeout(() => {
+                window.location.href = 'CSR.html';
+            }, 2000);
+        }; 
+    </script>
+
+
 </body>
 
 </html>
