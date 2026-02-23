@@ -36,7 +36,7 @@
 
                 <div class="movie-img"> <img src="imgs/Interstellar.jpeg" alt="Interstellar-pic"></div>
                 <div class="movie-info">
-                    <h3 class="movie-title">Interstellar</h3>   
+                    <h3 class="movie-title">Interstellar</h3>
                     <p class="rating">⭐ 8.7/10</p>
                     <p class="genre">Sci-Fi • 2014</p>
                     <p class="describe">Description:"A team of explorers travel through a wormhole in space in an
@@ -230,11 +230,11 @@
             </div>
 
             <div class="movie-card">
-                <div class="movie-img">
-                    <img src="imgs/Black Swan.jpeg" alt="Black Swan-pic">
+                <div>
+                    <img class="movie-img" src="imgs/Black Swan.jpeg" alt="Black Swan-pic">
                 </div>
                 <div class="movie-info">
-                    <h3 class="movie-title">Black Swan</h3>
+                    <h3>Black Swan</h3>
                     <p class="rating">⭐ 8.0/10</p>
                     <p class="genre">Drama/Thriller • 2010</p>
                     <p class="describe">Description: "A dedicated ballerina's pursuit of perfection spirals into
@@ -249,7 +249,7 @@
     <footer id="Contact">
         <p>&copy; 2026 Popcorn Pulse. All rights reserved.</p>
         <p class="next-page"> Go to the CSR page
-            <button onclick="goToPageCSR()"><img src="imgs/Arrow.png" alt="Next page "></button>
+            <button onclick="goToPageCSR()"><img src="imgs/Arrow.png" alt="Next page "> <a href="CSR.html"></a></button>
         </p>
         <div class="end">
             <a href="/cdn-cgi/l/email-protection#07746669637e627d7d6673303747606a666e6b2964686a">
@@ -273,7 +273,7 @@
     <script>
         function goToPageCSR() {
 
-            document.getElementById('loading-overlay').style.display = 'block';
+            document.getElementById('loading-overlay').style.display = 'flex';
             setTimeout(() => {
                 window.location.href = 'CSR.html';
             }, 2000);
