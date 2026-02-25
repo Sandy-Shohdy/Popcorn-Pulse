@@ -4,6 +4,33 @@ This project demonstrates the difference between **Client-Side Rendering (CSR)**
 
 ---
 
+## Key Differences
+
+| Feature         | CSR.html + CSR.js                | SSR.html                      |
+|-----------------|----------------------------------|-------------------------------|
+| Rendering       | Client-side (JS builds DOM)      | Server/static (HTML markup)   |
+| Data location   | In `CSR.js` array                | Hardcoded in HTML             |
+| SEO             | Less SEO-friendly                | SEO-friendly                  |
+| First paint     | Slower (wait for JS)             | Fast (content in HTML)        |
+| Maintainability | Easy (update JS array)           | Hard (update HTML manually)   |
+| JS required     | Yes                              | No                            |
+
+---
+
+## Example: How Movies Are Rendered
+
+- **CSR:**  
+  The `movies` array in `CSR.js` is looped over to generate HTML for each movie card, which is then injected into the page.
+
+- **SSR:**  
+  Each movie card is written directly in the HTML file.
+
+---
+
+
+
+## Project Structure
+
 ## CSR (Client-Side Rendering)
 
 - **File:** `CSR.html` (+ `CSR.js`)
@@ -33,37 +60,7 @@ This project demonstrates the difference between **Client-Side Rendering (CSR)**
 
 ---
 
-## Key Differences
 
-| Feature         | CSR.html + CSR.js                | SSR.html                      |
-|-----------------|----------------------------------|-------------------------------|
-| Rendering       | Client-side (JS builds DOM)      | Server/static (HTML markup)   |
-| Data location   | In `CSR.js` array                | Hardcoded in HTML             |
-| SEO             | Less SEO-friendly                | SEO-friendly                  |
-| First paint     | Slower (wait for JS)             | Fast (content in HTML)        |
-| Maintainability | Easy (update JS array)           | Hard (update HTML manually)   |
-| JS required     | Yes                              | No                            |
-
----
-
-## Example: How Movies Are Rendered
-
-- **CSR:**  
-  The `movies` array in `CSR.js` is looped over to generate HTML for each movie card, which is then injected into the page.
-
-- **SSR:**  
-  Each movie card is written directly in the HTML file.
-
----
-
-## Recommendations
-
-- Use **CSR** if you want easier updates and dynamic features, and SEO is not critical.
-- Use **SSR** if you want better SEO, faster initial load, and content that works without JavaScript.
-
----
-
-## Project Structure
 
 ```
 /Popcorn-Pulse
